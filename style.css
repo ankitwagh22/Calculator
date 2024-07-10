@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one, .two {
+    margin-bottom: 1rem;
+}
+
+.one {
+    margin-top: 3rem;
+}
+
+label {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+input {
+    height: 2rem;
+    width: 90%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.8rem;
+    border-radius: 1rem;
+}
+
+.add-sub {
+    margin-top: 1.5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mul-div {
+    margin-top: 1rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    width: 7rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: rgb(20, 228, 228);
+}
+
+button:hover {
+    cursor: pointer;
+    border: 3px solid rgb(11, 3, 3);
+    background-color: rgb(166, 242, 242);;
+}
+
+#result {
+    margin-top: 1rem;
+    height: 3rem;
+    width: 90%;
+    border: 1px solid rgb(7, 3, 3);
+}
+
+.res {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 150px;
+}
+
+.res p {
+    padding: 0.8rem;
+    font-size: 2rem;
+    border-radius: 0.7rem;
+}
+
+footer {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
